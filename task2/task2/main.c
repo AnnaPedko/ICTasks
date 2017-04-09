@@ -8,8 +8,12 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
+void ICPrint() {
     printf("Hello, World!\n");
+}
+
+int main(int argc, const char * argv[]) {
+    ICPrint();
+    
     return 0;
 }

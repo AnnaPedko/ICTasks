@@ -14,6 +14,7 @@
 
 int main(int argc, const char * argv[]) {
     double parameters[10] = {1000.0, 2.0, 3.4, 7.0, 50.0, 6, 7, 8, 0.000,-50};
+    
     for (int i = 0; i < 10; ++i){
         printf("Parameter = %f\n , Increment = %f\n",parameters[i],ICIncrement(parameters[i]));
         printf("Parameter = %f\n , Decrement = %f\n",parameters[i],ICDecrement(parameters[i]));

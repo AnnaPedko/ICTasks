@@ -9,12 +9,17 @@
 #include "ICPrintMamaPapa.h"
 #include "ICPrintMamaPapa.h"
 
-void ICPrintMamaPapa(int mama,int papa) {
+void ICPrintMamaPapa(int mamaValue,int papaValue) {
     char* parentsValue;
+    char* mamaString = "Mama";
+    char* papaString = "Papa";
     
-        if (mama > papa)
-            parentsValue = "Mama";
-        else parentsValue = "Papa";
+        if (mamaValue > papaValue) {
+            parentsValue = mamaString ;
+        }
+        else {
+            parentsValue = papaString;
+        }
     
     printf("%s\n", parentsValue);
     
